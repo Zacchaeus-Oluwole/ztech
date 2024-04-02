@@ -45,7 +45,7 @@ List<ContentUtils> contentUtil = [
           "With features like ownership and borrowing, Rust mitigates memory safety vulnerabilities, fortifying IoT systems against cyber threats and ensuring data integrity.",
           "Email Launching Functionality: Seamlessly connect with me via email with just a click! Integrated with url_launcher, sending inquiries or feedback is quick and effortless."
         ], 
-        link: 'https://ztech.netlify.app/#/', 
+        link: 'https://ztech.vercel.app/', 
         linktype: 'link',
       ),
       ContentUtil(
