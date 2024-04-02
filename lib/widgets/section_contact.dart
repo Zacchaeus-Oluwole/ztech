@@ -66,38 +66,38 @@ class _ContactSectionState extends State<ContactSection> {
                           print("Error occured");
                       }
                   },
-                  child: Image.asset("gmail.png",width: 27,),
+                  child: Image.asset("assets/gmail.png",width: 27,),
                 ),
                 
                 InkWell(
                   onTap: () {
                     js.context.callMethod('open', [smsLinks.linkedin]);
                   },
-                  child: Image.asset("linkedin.png",width: 27,),
+                  child: Image.asset("assets/linkedin.png",width: 27,),
                 ),
                 InkWell(
                   onTap: () {
                     js.context.callMethod('open', [smsLinks.twitter]);
                   },
-                  child: Image.asset("twitter.png", width: 24,),
+                  child: Image.asset("assets/twitter.png", width: 24,),
                 ),
                 InkWell(
                   onTap: () {
                     js.context.callMethod('open', [smsLinks.medium]);
                   },
-                  child: Image.asset("medium.png",width: 32,)
+                  child: Image.asset("assets/medium.png",width: 32,)
                 ),
                 InkWell(
                   onTap: () {
                     js.context.callMethod('open', [smsLinks.youtube]);
                   },
-                  child: Image.asset("youtube.png",width: 30,)
+                  child: Image.asset("assets/youtube.png",width: 30,)
                 ),
                 InkWell(
                   onTap: () {
                     js.context.callMethod('open', [smsLinks.github]);
                   },
-                  child: Image.asset("github.png",width: 30,)
+                  child: Image.asset("assets/github.png",width: 30,)
                 ),
                 
               ],
