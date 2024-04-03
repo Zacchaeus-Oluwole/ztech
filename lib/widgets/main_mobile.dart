@@ -101,18 +101,19 @@ class MainMobile extends StatelessWidget {
                       color: CustomColor.whiteSecondary
                     ),
                   ),
-                  BlinkingText(text: "Flutter and Rust Developer", fontSize: screenWidth * multiplier,),
+                  Expanded(child: BlinkingText(text: "Flutter and Rust Developer", fontSize: screenWidth * multiplier,)),
                 ],
               ),
             ],
           ),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(8, 40, 5, 30),
-            child: Container(
-              constraints: BoxConstraints(maxWidth: 1000),
-              child: ScrollingTextMobile(text: "An experienced software and IoT developer proficient in Flutter for cross-platform app development and Rust for high-performance backend and embedded systems. Passionate about leveraging technology to create efficient and innovative solutions.", fontSize: screenWidth * 0.049,)
-            ),
-          ),
+          ScrollingTextMobile(text: "An experienced software and IoT developer proficient in Flutter for cross-platform app development and Rust for high-performance backend and embedded systems. Passionate about leveraging technology to create efficient and innovative solutions.", fontSize: screenWidth * 0.049,)
+          // Padding(
+          //   padding: const EdgeInsets.fromLTRB(8, 40, 5, 30),
+          //   child: Container(
+          //     constraints: BoxConstraints(maxWidth: 1000),
+          //     child: ScrollingTextMobile(text: "An experienced software and IoT developer proficient in Flutter for cross-platform app development and Rust for high-performance backend and embedded systems. Passionate about leveraging technology to create efficient and innovative solutions.", fontSize: screenWidth * 0.049,)
+          //   ),
+          // ),
         ],
       ),
     );
