@@ -70,24 +70,6 @@ class MainDesktop extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(height: 15,),
-                    // ScrollingText(text: "I'm an experienced software and IoT developer proficient in Flutter for cross-platform app development and Rust for high-performance backend and embedded systems. Passionate about leveraging technology to create efficient and innovative solutions.",),
-                    // SizedBox(
-                    //   width: 230,
-                    //   height:40,
-                    //   child: ElevatedButton(
-                    //     onPressed: () {
-                    //       onNavMenuTap(5);
-                    //     }, 
-                    //     child: const Text(
-                    //       "Get in touch",
-                    //       style: TextStyle(fontSize: 20),
-                    //     ),
-                    //     style: ButtonStyle(
-                    //       backgroundColor: const MaterialStatePropertyAll( CustomColor.yellowPrimary), 
-                    //       foregroundColor: const MaterialStatePropertyAll(CustomColor.whitePrimary),
-                    //     )
-                    //   ),
-                    // )
                   ],
                 ),
               ),
