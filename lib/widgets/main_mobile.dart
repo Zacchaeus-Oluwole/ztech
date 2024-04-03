@@ -101,7 +101,7 @@ class MainMobile extends StatelessWidget {
                       color: CustomColor.whiteSecondary
                     ),
                   ),
-                  Expanded(child: BlinkingText(text: "Flutter and Rust Developer", fontSize: screenWidth * multiplier,)),
+                  BlinkingText(text: "Flutter and Rust Developer", fontSize: screenWidth * multiplier,),
                 ],
               ),
             ],
