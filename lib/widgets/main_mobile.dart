@@ -106,14 +106,13 @@ class MainMobile extends StatelessWidget {
               ),
             ],
           ),
-          ScrollingTextMobile(text: "An experienced software and IoT developer proficient in Flutter for cross-platform app development and Rust for high-performance backend and embedded systems. Passionate about leveraging technology to create efficient and innovative solutions.", fontSize: screenWidth * 0.049,)
-          // Padding(
-          //   padding: const EdgeInsets.fromLTRB(8, 40, 5, 30),
-          //   child: Container(
-          //     constraints: BoxConstraints(maxWidth: 1000),
-          //     child: ScrollingTextMobile(text: "An experienced software and IoT developer proficient in Flutter for cross-platform app development and Rust for high-performance backend and embedded systems. Passionate about leveraging technology to create efficient and innovative solutions.", fontSize: screenWidth * 0.049,)
-          //   ),
-          // ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(8, 40, 5, 30),
+            child: Container(
+              constraints: BoxConstraints(maxWidth: 1000),
+              child: ScrollingTextMobile(text: "An experienced software and IoT developer proficient in Flutter for cross-platform app development and Rust for high-performance backend and embedded systems. Passionate about leveraging technology to create efficient and innovative solutions.", fontSize: screenWidth * 0.049,)
+            ),
+          ),
         ],
       ),
     );
