@@ -26,17 +26,7 @@ class MainMobile extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ShaderMask(
-            shaderCallback: (bounds) {
-              return LinearGradient
-              (colors: [
-                CustomColor.scaffoldColor.withOpacity(0.6),
-                CustomColor.scaffoldColor.withOpacity(0.6)
-              ]
-            ).createShader(bounds);
-            },
-            blendMode: BlendMode.srcATop,
-            child: Row(
+          Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Image.asset("assets/flutter_avatar.png",
@@ -47,7 +37,28 @@ class MainMobile extends StatelessWidget {
                 ),
               ],
             ),
-          ),
+          // ShaderMask(
+          //   shaderCallback: (bounds) {
+          //     return LinearGradient
+          //     (colors: [
+          //       CustomColor.scaffoldColor.withOpacity(0.6),
+          //       CustomColor.scaffoldColor.withOpacity(0.6)
+          //     ]
+          //   ).createShader(bounds);
+          //   },
+          //   blendMode: BlendMode.srcATop,
+          //   child: Row(
+          //     mainAxisAlignment: MainAxisAlignment.start,
+          //     children: [
+          //       Image.asset("assets/flutter_avatar.png",
+          //         width: screenWidth/2.5,
+          //       ),
+          //       Image.asset("assets/rust.png",
+          //         width: screenWidth/3,
+          //       ),
+          //     ],
+          //   ),
+          // ),
           const SizedBox(height: 30,),
 
           Column(

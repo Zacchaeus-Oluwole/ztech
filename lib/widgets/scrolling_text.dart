@@ -16,11 +16,6 @@ class ScrollingText extends StatelessWidget {
             colors: [Colors.blue, Colors.green, Colors.orange],
           ).createShader(Rect.fromLTWH(400, 200, 500, 100.0)),
       ),
-      // style: const TextStyle(
-      //   color: CustomColor.whiteSecondary,
-      //   fontSize: 24.0,
-      //   fontFamily: 'Bobbers',
-      // ),
       child: AnimatedTextKit(
         repeatForever: true,
         animatedTexts: [
@@ -46,7 +41,7 @@ class ScrollingTextMobile extends StatelessWidget {
       style: TextStyle(
         fontSize: fontSize,
         foreground: Paint()
-          ..shader = const LinearGradient(
+          ..shader = LinearGradient(
             colors: [Colors.blue, Colors.green, Colors.orange],
           ).createShader(Rect.fromLTWH(100, 200, 150, 100.0)),
       ),
@@ -56,6 +51,7 @@ class ScrollingTextMobile extends StatelessWidget {
           TyperAnimatedText(text),
         ],
         onTap: () {
+          print("Tap Event");
         },
       ),
     );

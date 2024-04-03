@@ -15,15 +15,22 @@ class BlinkingText extends StatefulWidget {
 class _BlinkingTextState extends State<BlinkingText> {
 
   bool _isVisible = true;
+  late Timer _timer;
 
   @override
   void initState() {
     super.initState();
-    Timer.periodic(Duration(seconds: 2), (timer) {
+    _timer = Timer.periodic(Duration(seconds: 2), (timer) {
       setState(() {
         _isVisible = !_isVisible;
       });
     });
+  }
+
+  @override
+  void dispose() {
+    _timer.cancel(); // Cancel the timer to prevent further updates
+    super.dispose();
   }
 
 
@@ -34,7 +41,7 @@ class _BlinkingTextState extends State<BlinkingText> {
       duration: Duration(seconds: 3),
       child: GradientText(
         widget.text,
-        gradient: LinearGradient(
+        gradient: const LinearGradient(
           colors: [Colors.blue, Colors.green, Colors.orange],
         ),
         style: TextStyle(
