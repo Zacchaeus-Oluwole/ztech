@@ -48,7 +48,7 @@ class ScrollingTextMobile extends StatelessWidget {
         foreground: Paint()
           ..shader = LinearGradient(
             colors: [Colors.blue, Colors.green, Colors.orange],
-          ).createShader(Rect.fromLTWH(100, 200, 150, 100.0)),
+          ).createShader(Rect.fromLTWH(400, 200, 500, 100.0)),
       ),
       // style: const TextStyle(
       //   color: CustomColor.whiteSecondary,
