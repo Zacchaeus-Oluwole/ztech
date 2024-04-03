@@ -46,24 +46,16 @@ class ScrollingTextMobile extends StatelessWidget {
       style: TextStyle(
         fontSize: fontSize,
         foreground: Paint()
-          ..shader = LinearGradient(
+          ..shader = const LinearGradient(
             colors: [Colors.blue, Colors.green, Colors.orange],
           ).createShader(Rect.fromLTWH(100, 200, 150, 100.0)),
-        color: Colors.yellow,
-        backgroundColor: Colors.deepPurple,
       ),
-      // style: const TextStyle(
-      //   color: CustomColor.whiteSecondary,
-      //   fontSize: 24.0,
-      //   fontFamily: 'Bobbers',
-      // ),
       child: AnimatedTextKit(
         repeatForever: true,
         animatedTexts: [
           TyperAnimatedText(text),
         ],
         onTap: () {
-          print("Tap Event");
         },
       ),
     );
