@@ -66,6 +66,10 @@ class MainMobile extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              MobileProfileAnimation(),
+              const SizedBox(
+                height: 20,
+              ),
               Row(
                 children: [
                   FadeInLeft(
@@ -168,10 +172,10 @@ class MainMobile extends StatelessWidget {
                     stopPauseOnTap: true,
                     repeatForever: true),
               ),
-              const SizedBox(
-                height: 20,
-              ),
-              MobileProfileAnimation()
+              // const SizedBox(
+              //   height: 20,
+              // ),
+              // MobileProfileAnimation()
             ],
           ),
           // Padding(
