@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
         navigateRoute: const HomePage(),
         text: WavyAnimatedText("Zacchaeus Oluwole",
             textStyle: const TextStyle(color: Colors.white, fontSize: 30)),
-        imageSrc: 'profile_pic.png',
+        imageSrc: 'assets/profile_pic.png',
       ),
     );
   }
