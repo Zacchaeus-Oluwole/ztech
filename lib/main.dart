@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ztech_portfolio/pages/home_page.dart';
 
+import 'pages/splash_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -11,10 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(),
-      title: "Zacchaeus Oluwole",
-      home: const HomePage(),
-    );
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData.dark(),
+        title: "Zacchaeus Oluwole",
+        home: const SplashScreen());
   }
 }

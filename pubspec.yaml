@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   animated_text_kit: ^4.2.2
   url_launcher: ^6.2.5
+  tbib_splash_screen: ^1.0.0
+  animate_do: ^3.3.4
 
 dev_dependencies:
   flutter_test:
