@@ -94,7 +94,7 @@ class MainDesktop extends StatelessWidget {
                         FadeInLeft(
                           duration: const Duration(milliseconds: 1500),
                           child: BlinkingText(
-                            text: "Flutter and Rust Developer",
+                            text: "Software and IoT Developer",
                             fontSize: screenWidth * multiplier,
                           ),
                         ),
@@ -107,21 +107,21 @@ class MainDesktop extends StatelessWidget {
                       duration: const Duration(milliseconds: 1500),
                       child: AnimatedTextKit(
                           animatedTexts: [
-                            TyperAnimatedText("Seasoned in software and IoT.",
+                            // TyperAnimatedText("Seasoned in software and IoT.",
+                            //     textStyle: TextStyle(
+                            //         fontSize: screenWidth * multiplier,
+                            //         height: 1.5,
+                            //         fontWeight: FontWeight.bold,
+                            //         color: CustomColor.whiteSecondary)),
+                            TyperAnimatedText(
+                                "Specialist in Flutter for cross-platform application development.",
                                 textStyle: TextStyle(
                                     fontSize: screenWidth * multiplier,
                                     height: 1.5,
                                     fontWeight: FontWeight.bold,
                                     color: CustomColor.whiteSecondary)),
                             TyperAnimatedText(
-                                "Specialist in Flutter for app development.",
-                                textStyle: TextStyle(
-                                    fontSize: screenWidth * multiplier,
-                                    height: 1.5,
-                                    fontWeight: FontWeight.bold,
-                                    color: CustomColor.whiteSecondary)),
-                            TyperAnimatedText(
-                                "skilled in Rust for backend/embedded systems.",
+                                "skilled in Rust for backend, embedded systems and network programming.",
                                 textStyle: TextStyle(
                                     fontSize: screenWidth * multiplier,
                                     height: 1.5,

@@ -37,7 +37,7 @@ class _MobileProfileAnimationState extends State<MobileProfileAnimation>
       child: Image.asset(
         "assets/zachhh.png",
         width: screenWidth,
-        height: 190,
+        height: 250,
         fit: BoxFit.contain,
       ),
     );
