@@ -121,7 +121,7 @@ class MainDesktop extends StatelessWidget {
                                     fontWeight: FontWeight.bold,
                                     color: CustomColor.whiteSecondary)),
                             TyperAnimatedText(
-                                "skilled in Rust for backend, embedded systems and network programming.",
+                                "Skilled in Rust for backend, embedded systems and network programming.",
                                 textStyle: TextStyle(
                                     fontSize: screenWidth * multiplier,
                                     height: 1.5,

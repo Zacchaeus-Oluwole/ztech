@@ -119,7 +119,7 @@ class MainMobile extends StatelessWidget {
                   FadeInLeft(
                     duration: const Duration(milliseconds: 1500),
                     child: BlinkingText(
-                      text: "Software and IoT Developer",
+                      text: "Software & IoT Developer",
                       fontSize: screenWidth * multiplier,
                     ),
                   ),
@@ -146,7 +146,7 @@ class MainMobile extends StatelessWidget {
                               fontWeight: FontWeight.bold,
                               color: CustomColor.whiteSecondary)),
                       TyperAnimatedText(
-                          "skilled in Rust for backend, embedded systems and network programming.",
+                          "Skilled in Rust for backend, embedded systems and network programming.",
                           textStyle: TextStyle(
                               fontSize: screenWidth * multiplier,
                               height: 1.5,
