@@ -97,8 +97,8 @@ class MainMobile extends StatelessWidget {
                   FadeInDown(
                     duration: const Duration(milliseconds: 1500),
                     child: BlinkingText(
-                      text: "Zacchaeus Oluwole,",
-                      fontSize: screenWidth * 0.05,
+                      text: "Zacchaeus Oluwole,        ",
+                      fontSize: screenWidth * multiplier,
                     ),
                   ),
                 ],
@@ -122,7 +122,7 @@ class MainMobile extends StatelessWidget {
                       width: 250,
                       child: BlinkingText(
                         text: "Software & IoT Developer",
-                        fontSize: screenWidth * 0.05,
+                        fontSize: screenWidth * multiplier,
                       ),
                     ),
                   ),
