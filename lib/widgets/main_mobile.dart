@@ -122,7 +122,7 @@ class MainMobile extends StatelessWidget {
                       width: 250,
                       child: BlinkingText(
                         text: "Software & IoT Developer",
-                        fontSize: screenWidth * multiplier,
+                        fontSize: screenWidth * 0.05,
                       ),
                     ),
                   ),
