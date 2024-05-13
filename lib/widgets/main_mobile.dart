@@ -96,10 +96,11 @@ class MainMobile extends StatelessWidget {
                   ),
                   FadeInDown(
                     duration: const Duration(milliseconds: 1500),
-                    child: BlinkingText(
-                      text: "Zacchaeus Oluwole,",
-                      fontSize: screenWidth * mmultiplier,
-                    ),
+                    child: Text("Zacchaeus Oluwole,"),
+                    // child: BlinkingText(
+                    //   text: "Zacchaeus Oluwole,",
+                    //   fontSize: screenWidth * mmultiplier,
+                    // ),
                   ),
                 ],
               ),
@@ -118,13 +119,14 @@ class MainMobile extends StatelessWidget {
                   ),
                   FadeInLeft(
                     duration: const Duration(milliseconds: 1500),
-                    child: SizedBox(
-                      width: 250,
-                      child: BlinkingText(
-                        text: "Software & IoT Developer",
-                        fontSize: screenWidth * mmultiplier,
-                      ),
-                    ),
+                    child: Text("Software & IoT Developer"),
+                    // child: SizedBox(
+                    //   width: 250,
+                    //   // child: BlinkingText(
+                    //   //   text: "Software & IoT Developer",
+                    //   //   fontSize: screenWidth * mmultiplier,
+                    //   // ),
+                    // ),
                   ),
                 ],
               ),
