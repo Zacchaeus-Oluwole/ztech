@@ -45,7 +45,7 @@ class _BlinkingTextState extends State<BlinkingText> {
           colors: [Colors.blue, Colors.green, Colors.orange],
         ),
         style: TextStyle(
-          fontSize: widget.fontSize,
+          // fontSize: ,
           fontWeight: FontWeight.bold,
         ),
       ),
