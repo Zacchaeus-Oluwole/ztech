@@ -19,7 +19,7 @@ class MainMobile extends StatelessWidget {
     double multiplier = 0.05;
 
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 40.0, vertical: 30),
+      margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 30),
       height: screenHeight / 3,
       constraints: const BoxConstraints(minHeight: 650.0),
       child: Column(
