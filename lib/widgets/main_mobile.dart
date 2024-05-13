@@ -97,7 +97,7 @@ class MainMobile extends StatelessWidget {
                   FadeInDown(
                     duration: const Duration(milliseconds: 1500),
                     child: BlinkingText(
-                      text: "Zacchaeus Oluwole,        ",
+                      text: "Zacchaeus Oluwole,          ",
                       fontSize: screenWidth * multiplier,
                     ),
                   ),
