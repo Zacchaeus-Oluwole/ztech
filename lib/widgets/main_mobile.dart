@@ -16,7 +16,7 @@ class MainMobile extends StatelessWidget {
     final screenSize = MediaQuery.of(context).size;
     final screenWidth = screenSize.width;
     final screenHeight = screenSize.height;
-    double multiplier = 0.1;
+    double mmultiplier = 0.1;
 
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 40.0, vertical: 30),
@@ -73,7 +73,7 @@ class MainMobile extends StatelessWidget {
                     child: Text(
                       "Hi,",
                       style: TextStyle(
-                          fontSize: screenWidth * multiplier,
+                          fontSize: screenWidth * mmultiplier,
                           height: 1.5,
                           fontWeight: FontWeight.bold,
                           color: CustomColor.whiteSecondary),
@@ -88,7 +88,7 @@ class MainMobile extends StatelessWidget {
                     child: Text(
                       "I'm ",
                       style: TextStyle(
-                          fontSize: screenWidth * multiplier,
+                          fontSize: screenWidth * mmultiplier,
                           height: 1.5,
                           fontWeight: FontWeight.bold,
                           color: CustomColor.whiteSecondary),
@@ -98,7 +98,7 @@ class MainMobile extends StatelessWidget {
                     duration: const Duration(milliseconds: 1500),
                     child: BlinkingText(
                       text: "Zacchaeus Oluwole,",
-                      fontSize: screenWidth * multiplier,
+                      fontSize: screenWidth * mmultiplier,
                     ),
                   ),
                 ],
@@ -110,7 +110,7 @@ class MainMobile extends StatelessWidget {
                     child: Text(
                       "a ",
                       style: TextStyle(
-                          fontSize: screenWidth * multiplier,
+                          fontSize: screenWidth * mmultiplier,
                           height: 1.5,
                           fontWeight: FontWeight.bold,
                           color: CustomColor.whiteSecondary),
@@ -122,7 +122,7 @@ class MainMobile extends StatelessWidget {
                       width: 250,
                       child: BlinkingText(
                         text: "Software & IoT Developer",
-                        fontSize: screenWidth * multiplier,
+                        fontSize: screenWidth * mmultiplier,
                       ),
                     ),
                   ),
@@ -144,21 +144,21 @@ class MainMobile extends StatelessWidget {
                       TyperAnimatedText(
                           "Specialist in Flutter for cross-platform application development.",
                           textStyle: TextStyle(
-                              fontSize: screenWidth * multiplier,
+                              fontSize: screenWidth * mmultiplier,
                               height: 1.5,
                               fontWeight: FontWeight.bold,
                               color: CustomColor.whiteSecondary)),
                       TyperAnimatedText(
                           "Skilled in Rust for backend, embedded systems and network programming.",
                           textStyle: TextStyle(
-                              fontSize: screenWidth * multiplier,
+                              fontSize: screenWidth * mmultiplier,
                               height: 1.5,
                               fontWeight: FontWeight.bold,
                               color: CustomColor.whiteSecondary)),
                       TyperAnimatedText(
                           "Driven by a passion for efficient, innovative technology.",
                           textStyle: TextStyle(
-                              fontSize: screenWidth * multiplier,
+                              fontSize: screenWidth * mmultiplier,
                               height: 1.5,
                               fontWeight: FontWeight.bold,
                               color: CustomColor.whiteSecondary
