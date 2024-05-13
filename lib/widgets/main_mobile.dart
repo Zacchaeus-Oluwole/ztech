@@ -16,10 +16,10 @@ class MainMobile extends StatelessWidget {
     final screenSize = MediaQuery.of(context).size;
     final screenWidth = screenSize.width;
     final screenHeight = screenSize.height;
-    double multiplier = 0.05;
+    double multiplier = 0.06;
 
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 30),
+      margin: EdgeInsets.symmetric(horizontal: 40.0, vertical: 30),
       height: screenHeight / 3,
       constraints: const BoxConstraints(minHeight: 650.0),
       child: Column(
@@ -110,7 +110,7 @@ class MainMobile extends StatelessWidget {
                     child: Text(
                       "a ",
                       style: TextStyle(
-                          fontSize: screenWidth * 0.06,
+                          fontSize: screenWidth * multiplier,
                           height: 1.5,
                           fontWeight: FontWeight.bold,
                           color: CustomColor.whiteSecondary),
@@ -122,32 +122,7 @@ class MainMobile extends StatelessWidget {
                       width: 250,
                       child: BlinkingText(
                         text: "Software & IoT Developer",
-                        fontSize: screenWidth * multiplier,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              Row(
-                children: [
-                  FadeInLeft(
-                    duration: const Duration(milliseconds: 1500),
-                    child: Text(
-                      "               ",
-                      style: TextStyle(
-                          fontSize: screenWidth * 0.06,
-                          height: 1.5,
-                          fontWeight: FontWeight.bold,
-                          color: CustomColor.whiteSecondary),
-                    ),
-                  ),
-                  FadeInLeft(
-                    duration: const Duration(milliseconds: 1500),
-                    child: SizedBox(
-                      width: 250,
-                      child: BlinkingText(
-                        text: "                      ",
-                        fontSize: screenWidth * multiplier,
+                        fontSize: screenWidth * 0.05,
                       ),
                     ),
                   ),
@@ -155,7 +130,6 @@ class MainMobile extends StatelessWidget {
               ),
               const SizedBox(
                 height: 10,
-
               ),
               FadeInLeft(
                 duration: const Duration(milliseconds: 1500),
