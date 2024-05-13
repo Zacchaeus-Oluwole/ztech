@@ -110,7 +110,7 @@ class MainMobile extends StatelessWidget {
                     child: Text(
                       "a ",
                       style: TextStyle(
-                          fontSize: screenWidth * multiplier,
+                          fontSize: screenWidth * 0.06,
                           height: 1.5,
                           fontWeight: FontWeight.bold,
                           color: CustomColor.whiteSecondary),
@@ -130,6 +130,7 @@ class MainMobile extends StatelessWidget {
               ),
               const SizedBox(
                 height: 10,
+
               ),
               FadeInLeft(
                 duration: const Duration(milliseconds: 1500),
