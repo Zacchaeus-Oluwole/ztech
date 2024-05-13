@@ -16,7 +16,7 @@ class MainMobile extends StatelessWidget {
     final screenSize = MediaQuery.of(context).size;
     final screenWidth = screenSize.width;
     final screenHeight = screenSize.height;
-    double multiplier = 0.06;
+    double multiplier = 0.05;
 
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 40.0, vertical: 30),
@@ -122,7 +122,7 @@ class MainMobile extends StatelessWidget {
                       width: 250,
                       child: BlinkingText(
                         text: "Software & IoT Developer",
-                        fontSize: screenWidth * 0.05,
+                        fontSize: screenWidth * multiplier,
                       ),
                     ),
                   ),
