@@ -128,6 +128,31 @@ class MainMobile extends StatelessWidget {
                   ),
                 ],
               ),
+              Row(
+                children: [
+                  FadeInLeft(
+                    duration: const Duration(milliseconds: 1500),
+                    child: Text(
+                      "               ",
+                      style: TextStyle(
+                          fontSize: screenWidth * 0.06,
+                          height: 1.5,
+                          fontWeight: FontWeight.bold,
+                          color: CustomColor.whiteSecondary),
+                    ),
+                  ),
+                  FadeInLeft(
+                    duration: const Duration(milliseconds: 1500),
+                    child: SizedBox(
+                      width: 250,
+                      child: BlinkingText(
+                        text: "                      ",
+                        fontSize: screenWidth * multiplier,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
               const SizedBox(
                 height: 10,
 
