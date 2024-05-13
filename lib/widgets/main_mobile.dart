@@ -98,7 +98,7 @@ class MainMobile extends StatelessWidget {
                     duration: const Duration(milliseconds: 1500),
                     child: BlinkingText(
                       text: "Zacchaeus Oluwole,",
-                      fontSize: screenWidth * multiplier,
+                      fontSize: screenWidth * 0.05,
                     ),
                   ),
                 ],
