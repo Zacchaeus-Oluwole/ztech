@@ -118,11 +118,9 @@ class MainMobile extends StatelessWidget {
                   ),
                   FadeInLeft(
                     duration: const Duration(milliseconds: 1500),
-                    child: Flexible(
-                      child: BlinkingText(
-                        text: "Software & IoT Developer",
-                        fontSize: screenWidth * multiplier,
-                      ),
+                    child: BlinkingText(
+                      text: "Software & IoT Developer",
+                      fontSize: screenWidth * multiplier,
                     ),
                   ),
                 ],
