@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:ztech_portfolio/pages/home_page.dart';
 
 import 'pages/splash_screen.dart';
 

@@ -23,7 +23,6 @@ class ScrollingText extends StatelessWidget {
           TyperAnimatedText(text),
         ],
         onTap: () {
-          print("Tap Event");
         },
       ),
     );
@@ -53,7 +52,6 @@ class ScrollingTextMobile extends StatelessWidget {
           TyperAnimatedText(text),
         ],
         onTap: () {
-          print("Tap Event");
         },
       ),
     );

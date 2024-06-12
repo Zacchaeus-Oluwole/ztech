@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         const Text(
-                          "What i can do",
+                          "What I can do",
                           style: TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
